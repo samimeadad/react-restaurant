@@ -4,12 +4,12 @@ import { NavLink } from 'react-router-dom';
 const anchorStyle = {
     marginRight: '10px',
     textDecoration: 'none',
-    color: 'blue'
+    color: 'white'
 }
 
 const activeStyle = {
     fontWeight: "bold",
-    color: "red"
+    color: "yellow"
 }
 
 const Header = () => {

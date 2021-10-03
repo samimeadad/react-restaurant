@@ -22,7 +22,7 @@ const Restaurant = () => {
     return (
         <div style={ { marginTop: '25px' } }>
             <input onChange={ handleInputField } type="text" name="" id="" placeholder="Search your meal here" />
-            <h2>Total Meals: { meals?.length }</h2>
+            <h2 className="text-white">Total Meals: { meals?.length }</h2>
             <div className="meal-container">
                 {
                     meals.map( meal => <Meal key={ meal?.idMeal } meal={ meal }></Meal> )
